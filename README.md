@@ -8,7 +8,7 @@ To run this project:
 4. Run model.py
 5. Run market_test.py
 
-*NOTE: A pretrained model and processed data are already included in the repo, so steps 1 through 3 are not required.*
+*NOTE: A pretrained model and processed data are already included in the repo, so steps 3 and 4 are not required.*
 
 ### Processed Data:
 ### Results:
