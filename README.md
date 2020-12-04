@@ -8,4 +8,4 @@ To run this project:
 
 *NOTE: A pretrained model and processed data are already included in the repo, so steps 1 through 3 are not required.*
 
-**Results**
+## Results
