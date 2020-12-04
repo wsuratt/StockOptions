@@ -13,6 +13,6 @@ To run this project:
 ### Processed Data:  
 Symbol,ExpirationDate,CallPremium,PutPremium,Volatility,BEUp,BEDown,Days,Output
 ### Model Training Results:
-Model Loss             |  Model ACC             |  Compared ACC
+Model Loss             |  Model Accuracy             |  Compared Accuracy
 :-------------------------:|:-------------------------:|:-------------------------:
 ![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/model_loss.png)  |  ![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/model_acc.png)  |  ![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/accuracy_results.png)
