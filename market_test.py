@@ -130,11 +130,11 @@ def process_data(api, positions_data, symbols):
     # Get NUM_RANDOM batches of random predictions to average
     for i in range(NUM_RANDOM):
         # Add random predictions to Series
-        for i in range(len(positions.index)):
+        for j in range(len(positions.index)):
             random_predictions = random_predictions.append(pd.Series(random.randint(0, 1)), ignore_index=True)
 
         # Add column to DataFrame for random predictions
-        positions['RandomOutput' + i] = random_predictions
+        positions['RandomOutput' + str(i)] = random_predictions
 
     return positions
 
@@ -253,13 +253,13 @@ def random_results(api, days, positions, symbols):
     for i in range(len(positions.index)):
         # Get sum for random predictions' profits
         total = 0
-        for i in range(NUM_RANDOM):
+        for j in range(NUM_RANDOM):
             # Get number of positions that will be invested in and amount to invest in each
-            num_investments = (positions['RandomOutput' + i] == 1).sum()
+            num_investments = (positions['RandomOutput' + str(j)] == 1).sum()
             invest_amount = INITIAL_INVESTMENT / num_investments
 
             # Invest if random prediction equals 1 and expiration date is within date range
-            if positions.iloc[i]['RandomOutput' + i] == 1 and positions.iloc[i]['ExpirationDate'] <= END_DATE:
+            if positions.iloc[i]['RandomOutput' + str(j)] == 1 and positions.iloc[i]['ExpirationDate'] <= END_DATE:
                 # Sleep for 1 second to keep API from blocking IP
                 time.sleep(1)
                 # Get close prices for symbol through Alpaca API
