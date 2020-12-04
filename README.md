@@ -11,4 +11,4 @@ To run this project:
 *NOTE: A pretrained model and processed data are already included in the repo, so steps 3 and 4 are not required.*
 
 ### Processed Data:
-### Results:
+### Model Training Results:
