@@ -10,5 +10,6 @@ To run this project:
 
 *NOTE: A pretrained model and processed data are already included in the repo, so steps 3 and 4 are not required.*
 
-### Processed Data:
+### Processed Data:  
+Symbol,ExpirationDate,CallPremium,PutPremium,Volatility,BEUp,BEDown,Days,Output
 ### Model Training Results:
