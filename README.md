@@ -1,5 +1,5 @@
 # StockOptions  
-## Predicting when it is profitable to buy straddle options for stock in the S&P 500 index
+## Predicting when it is profitable to buy straddle options for stocks in the S&P 500 index using deep learning
 ### Instructions for running:  
 To run this project:
 1. Install required packages: pip3 install -r requirements.txt
