@@ -19,4 +19,4 @@ Model Loss             |  Model Accuracy             |  Compared Accuracy
 ### Market Testing Results:
 Performance Graph            |  Final Investments
 :-------------------------:|:-------------------------:
-![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/market_results_graph.png)  |  ![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/model_results_final.png)  |  ![alt text]
+![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/market_results_graph.png)  |  ![alt text](https://github.com/wsuratt/StockOptions/blob/main/results/market_results_final.png)  |  ![alt text]
