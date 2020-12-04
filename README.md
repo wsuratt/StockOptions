@@ -1,5 +1,5 @@
 # StockOptions
-**Instructions for running:**  
+******Instructions for running:******  
 To run this project:
 1. Install required packages: pip3 install -r requirements.txt
 2. Run process_data.py
